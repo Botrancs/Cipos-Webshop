@@ -7,7 +7,10 @@ body{
 
 
 .nav{
+    background-color: black;
+    font-size: 50;
+    color: white;
 
-
+    top: 0cm;
 }
 
