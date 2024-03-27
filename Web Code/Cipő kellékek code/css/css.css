@@ -1,21 +1,4 @@
-<<<<<<< HEAD
 
-
-body{
-    background-color: f6f6f6;
-    font-family:"dm sans";
-}
-
-
-.nav{
-    background-color: black;
-    font-size: 50;
-    color: white;
-
-    top: 0cm;
-}
-
-=======
 
 
 body{
@@ -24,9 +7,11 @@ body{
 }
 
 
-.nav{
-
-
+a:hover{
+    cursor: pointer;
 }
 
->>>>>>> 26f56b9f2ca2690641750f5027b99f80d80f4239
+
+a {
+    color: inherit;
+}
