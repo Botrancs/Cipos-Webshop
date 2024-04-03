@@ -1,3 +1,55 @@
 body {
-    background-color: ;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background: gray;
+}
+
+
+.csuszkalos_reklamok {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.csuszkalo {
+    width: 2000px;
+    height: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slide input{
+    display: none;
+}
+
+.slider_kepek{
+    width: 20%;
+    transition: 2s;
+}
+
+.slider_kepek img{
+    width: 1800px;
+    height: 600px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .csuszkalo{
+        background-color: gray;
+    }
 }
