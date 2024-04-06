@@ -1,43 +1,52 @@
 body {
-    background-color: gray;
     padding: 0;
     margin: 0;
     height: 100vh;
     justify-self: center;
     align-items: center;
-    background: gray;
 }
 
+.slide {
+    width: 2000px;
+    height: 800px;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+}
 
 .csuszkalos_reklamok {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 50vh;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.csuszkalo {
-    width: 2000px;
-    height: 800px;
-    border-radius: 10px;
-    overflow: hidden;
-}
 
 .slide{
+    justify-content: center;
+    align-items: center;
     width: 500%;
     height: 500px;
-    display: flex;
+    margin: 0px;
 }
+
+
+.active .rect:hover{
+    background-color: red;
+}
+  
 
 .slide input{
     display: none;
 }
 
 .slider_kepek{
+    display: none;
     width: 20%;
-    transition: 2s;
+    transition: 2s ease;
 }
 
 .slider_kepek img{
@@ -45,17 +54,29 @@ body {
     height: 600px;
 }
 
+.rect {
+    cursor: pointer;
+    height: 15px;
+    width: 30px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+}
+  
+
 .nav-m{
+    margin-top: 100px;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 800px;
-    margin-top: -40px;
+    margin-top: 800px;
 }
 
 
 
 
 @media only screen and (max-width: 800px) {
-    .csuszkalo{
-        background-color: gray;
-    }
+
 }

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lacys Sneakers Főoldal</title>
     <link rel="stylesheet" href="Fooldal.css">
+    <script src="script.js"></script>
+    <title>Lacys Sneakers Főoldal</title>
 </head>
-<body>
+<body onload="currentSlide(1)">
     <header>
         <nav class="container-fluid">
             <div class="row">
@@ -24,37 +25,26 @@
             </div>
         </nav>
     </header>
-
+    
     <section class="csuszkalos_reklamok">
-        <div class="csuszkalo">
             <div class="slide">
-                <input type="radio" name="radio-gomb" id="radio1">
-                <input type="radio" name="radio-gomb" id="radio2">
-                <input type="radio" name="radio-gomb" id="radio3">
-
-                <div class="slider_kepek elso">
-                    <img src="image 49.png" alt="Cipő :D">
+                <div class="slider_kepek">
+                    <img src="ba186000-ae3e-415f-ac61-f25fd68e8c75.jpg" alt="Cipő :D">
                 </div>
                 <div class="slider_kepek">
-                    <img src="image 51.png" alt="Cipő :D">
+                    <img src="420862241_17873938959033292_7829122090797613313_n (1).jpg" alt="Cipő :D">
                 </div>
                 <div class="slider_kepek">
-                    <img src="image 1.png" alt="Cipő :D">
+                    <img src="elite_tavaszi.png" alt="Cipő :D">
                 </div>
-
-                <div class="nav-auto">
-                    <div class="a-kep1"></div>
-                    <div class="a-kep2"></div>
-                    <div class="a-kep3"></div>
-                </div>
-
-                <div class="nav-m">
-                    <input type="radio" name="m-gomb" id="radio1">
-                    <input type="radio" name="m-gomb" id="radio2">
-                    <input type="radio" name="m-gomb" id="radio3">
-                </div>
+                <br>
             </div>
-        </div>
+
+            <div class="nav-m">
+                <span class="rect" onclick="currentSlide(1)"></span>
+                <span class="rect" onclick="currentSlide(2)"></span>
+                <span class="rect" onclick="currentSlide(3)"></span>
+            </div>
     </section>
 
 </body>
