@@ -85,13 +85,29 @@ body {
     max-height: 100vh;
 }
 
-.cipok{
+.termek2{
+    margin-top: -45px;
+}
+
+.termek3{
+    margin-top: 20px;
+}
+
+.termek4{
+    margin-top: -42px;
+}
+
+.termek6{
+    margin-top: 3px;
+}
+
+.al2{
     position: relative;
     font-family: DM Sans;
     font-style: italic;
 }
 
-.arak{
+.al3{
     position: relative;
     font-family: DM Sans;
     font-style: italic;
