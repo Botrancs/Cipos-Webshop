@@ -16,6 +16,62 @@ body {
     max-height: 100vh;
 }
 
+.cipo1{
+    margin-top: -55px;
+}
+
+.cipo3{
+    margin-top: -15px;
+}
+
+.cipo5{
+    margin-top: -15px;
+}
+
+.cipo6{
+    margin-top: -60px;
+}
+
+.cipo8{
+    margin-top: 30px;
+}
+
+.cipo10{
+    margin-top: 20px;
+}
+
+.cipo12{
+    margin-top: 20px;
+}
+
+.cipo13{
+    margin-top: -20px;
+}
+
+.cipo15{
+    margin-top: 20px;
+}
+
+.cipo17{
+    margin-top: 20px;
+}
+
+.cipo18{
+    margin-top: 20px;
+}
+
+.cipo20{
+    margin-top: 40px;
+}
+
+.cipo21{
+    margin-top: 25px;
+}
+
+.cipo22{
+    margin-top: -15px;
+}
+
 .al6{
     position: relative;
     font-family: DM Sans;
@@ -31,6 +87,7 @@ body {
 }
 
 .container {
+    justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;

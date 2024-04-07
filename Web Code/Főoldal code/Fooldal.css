@@ -115,6 +115,10 @@ body {
     margin-top: 0%;
 }
 
+.container img {
+    width: 100px;
+    }
+
 .container {
     display: grid; 
     grid-auto-columns: 1fr; 
