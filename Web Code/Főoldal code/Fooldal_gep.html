@@ -4,9 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="Fooldal.css">
+    <script src="script.js"></script>
     <title>Lacys Sneakers Főoldal</title>
 </head>
-</body>
+<body onload="currentSlide(1)">
+    <header>
+        <nav class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <a href="./Fooldal_gep.html">
+                        <img id="logo" src="LOGO.png" alt="Logo">
+                    </a>
+                    <a class="oldalak" href="./Főoldal_gép.html">Főoldal</a>
+                    <a class="oldalak" href="./Férfi cipők_gép.html">Férfi Cipők</a>
+                    <a class="oldalak" href="./Nőicipők_gép.html">Női Cipők</a>
+                    <a class="oldalak" href="./Cipőkellékek_gép.html">Cipő Kellékek</a>
+                    <a class="oldalak" href="./Blog_gép.html">Blog</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="csuszkalos_reklamok">
+            <div class="slide">
+                <div class="slider_kepek">
+                    <img src="hir1.png" alt="Cipő :D">
+                </div>
+                <div class="slider_kepek">
+                    <img src="hir2.png" alt="Cipő :D">
+                </div>
+                <div class="slider_kepek">
+                    <img src="hir3.png" alt="Cipő :D">
+                </div>
+                <br>
+            </div>
+
+            <div class="nav-m">
+                <span class="rect" onclick="currentSlide(1)"></span>
+                <span class="rect" onclick="currentSlide(2)"></span>
+                <span class="rect" onclick="currentSlide(3)"></span>
+            </div>
+    </section>
+
+    <section class="szoveg">
+        <div>
+            <p>Népszerű termékek</p>
+        </div>
+        <div class="container">
+            <div class="termek1">
+              <div class="al1">
+                <img src="cipo1.png" alt="Nike Air Max Plus black">
+              </div>
+              <div class="al2">
+                <p>Nike Air Max Plus black</p>
+              </div>
+              <div class="al3">
+                <p>73.990 HUF</p>
+              </div>
+            </div>
+            <div class="termek2">
+              <div class="al1">
+                <img src="cipo2.png" alt="Nike Air Max 97 white">
+              </div>
+              <div class="al2">
+                <p>Nike Air Max 97 white</p>
+              </div>
+              <div class="al3">
+                <p>32.990 HUF</p>
+              </div>
+            </div>
+            <div class="termek3">
+              <div class="al1">
+                <img src="cipo3.png" alt="Nike AirJordan 4 “Military Black” high”">
+              </div>
+              <div class="al2">
+                <p>Nike AirJordan 4 “Military Black” high”</p>
+              </div>
+              <div class="al3">
+                <p>139.990 HUF</p>
+              </div>
+            </div>
+            <div class="termek4">
+              <div class="al1">
+                <img src="cipo4.png" alt="Nike Air Max 90">
+              </div>
+              <div class="al2">
+                <p>Nike Air Max 90</p>
+              </div>
+              <div class="al3">
+                <p>65.000 HUF</p>
+              </div>
+            </div>
+            <div class="termek5">
+              <div class="al1">
+                <img src="cipo5.png" alt="Nike Air Max Plus Drift">
+              </div>
+              <div class="al2">
+                <p>Nike Air Max Plus Drift</p>
+              </div>
+              <div class="al3">
+                <p>85.000 HUF</p>
+              </div>
+            </div>
+            <div class="termek6">
+              <div class="al1">
+                <img src="cipo6.png" alt="Nike Zoom Bella 6 Premium">
+              </div>
+              <div class="al2">
+                <p>Nike Zoom Bella 6 Premium</p>
+              </div>
+              <div class="al3">
+                <p>45.000 HUF</p>
+              </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
 </body>
 </html>
