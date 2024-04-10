@@ -4,6 +4,7 @@ body {
     height: 100vh;
     justify-self: center;
     align-items: center;
+    background-color: #f6f6f6;
 }
 
 .slide {
@@ -116,7 +117,7 @@ body {
 }
 
 .container img {
-    width: 100px;
+    width: auto;
     }
 
 .container {

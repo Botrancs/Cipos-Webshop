@@ -4,6 +4,7 @@ body {
     height: 100vh;
     justify-self: center;
     align-items: center;
+    background-color: #f6f6f6;
 }
 
 .szoveg{
@@ -87,6 +88,10 @@ body {
 }
 
 .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -103,4 +108,4 @@ body {
       "cipo16 cipo17 cipo18"
       "cipo19 cipo20 cipo21"
       "cipo22 cipo23 cipo24";
-  }
+}
