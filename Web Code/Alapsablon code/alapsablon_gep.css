@@ -1,3 +1,42 @@
 body {
-    background-color: black;
+    background-color: white;
+}
+.josefin-sans-body {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+  }
+.menubar{
+    display: block;
+    text-align: justify;
+    justify-content: center;
+}
+.menubar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.menubar a{
+    color: white;
+    text-decoration: none;
+    margin: 24px 20px;
+    padding: 0px 10px;
+    display: block;
+    text-align: center;
+    text-align-last: center;
+}
+.menubar li{
+    float: inline-start;
+    font-size: 30px;
+    font-family:"dm sans";
+}
+.menubar img{
+    width: 120px;
+    height: 100px;
+    position: relative;
+}
+.menubar a:hover{
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
 }
