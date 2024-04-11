@@ -2,12 +2,15 @@ body {
     background-color: white;
 }
 .josefin-sans-body {
-    font-family: "Josefin Sans", sans-serif;
-    font-style: normal;
-  }
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
 .menubar{
+    font-family: "Josefin Sans", sans-serif;
     display: block;
-    text-align: justify;
+    text-align: center;
     justify-content: center;
 }
 .menubar ul{
@@ -29,7 +32,6 @@ body {
 .menubar li{
     float: inline-start;
     font-size: 30px;
-    font-family:"dm sans";
 }
 .menubar img{
     width: 120px;
@@ -39,4 +41,36 @@ body {
 .menubar a:hover{
     background-color: hsl(0, 0%, 20%);
     cursor: pointer;
+}
+#szurke1{
+    color: #393939;
+}
+#szurke2{
+    color: #6F6F6F;
+    bottom: 0;
+}
+.label{
+    font-family: "Josefin Sans", sans-serif;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.label ul{
+    list-style-type: none;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.label a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-align-last: center;
+    padding: 20px;
+    margin: 0px;
+}
+.label li{
+    float: inline-start;
 }
