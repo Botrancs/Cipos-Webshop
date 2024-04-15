@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+}
+.josefin-sans-body {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.menubar{
+    font-family: "Josefin Sans", sans-serif;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.menubar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.menubar a{
+    color: white;
+    text-decoration: none;
+    margin: 24px 20px;
+    padding: 0px 10px;
+    display: block;
+    text-align: center;
+    text-align-last: center;
+}
+.menubar li{
+    float: inline-start;
+    font-size: 30px;
+}
+.menubar img{
+    width: 120px;
+    height: 100px;
+    position: relative;
+}
+.menubar a:hover{
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+#szurke1{
+    color: #393939;
+}
+#szurke2{
+    color: #6F6F6F;
+    bottom: 0;
+}
+.label{
+    font-family: "Josefin Sans", sans-serif;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.label ul{
+    list-style-type: none;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+.label a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    text-align-last: center;
+    padding: 20px;
+    margin: 0px;
+}
+.label li{
+    float: inline-start;
+}
+
+
+
+.cipokanal {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+.Protectcure {
+    display: block;
+    max-width: 120%;
+    height: auto;
+  }
+
+.Sneakershield{
+    display: block;
+    max-width: 50%;
+    height: 50%;
+  }
